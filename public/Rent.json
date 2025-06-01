@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Cozy Single-family Home",
+    "description": "Standalone residence offering privacy and space, ideal for families or professionals seeking comfort.",
+    "location": "123 Maple Street, Springfield",
+    "price": "$1,800/month",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "image": "https://example.com/images/home1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Modern Family House",
+    "description": "Spacious and modern home with a backyard and garage, located in a quiet neighborhood.",
+    "location": "45 Oak Avenue, Rivertown",
+    "price": "$2,200/month",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "image": "https://example.com/images/home2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Classic Suburban Home",
+    "description": "Comfortable home with updated kitchen and patio, perfect for small families.",
+    "location": "98 Pine Lane, Brookside",
+    "price": "$1,950/month",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "image": "https://example.com/images/home3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Charming Corner House",
+    "description": "Beautiful corner-lot home with fenced yard and large windows, located near schools and parks.",
+    "location": "812 Elm Drive, Greenfield",
+    "price": "$2,000/month",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "image": "https://example.com/images/home4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Luxury Single-family Residence",
+    "description": "Elegant house with modern appliances, double garage, and large garden in a premium location.",
+    "location": "200 Sunset Blvd, Lakeview",
+    "price": "$2,800/month",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "image": "https://example.com/images/home5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Affordable Family Living",
+    "description": "Great value home with ample space and amenities, ideal for growing families.",
+    "location": "310 Birch Road, Meadowville",
+    "price": "$1,600/month",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "image": "https://example.com/images/home6.jpg"
+  }
+]
