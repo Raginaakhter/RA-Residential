@@ -20,6 +20,7 @@ import Register from './components/Register.jsx';
 import Authprovider from './provider/Authprovider';
 import UserProfile from './pages/UserProfile.jsx';
 import PrivateRoutes from './privateRoute/PrivateRoutes.jsx';
+import Properties from './pages/Properties.jsx';
 
 
 // started
@@ -86,6 +87,12 @@ const router = createBrowserRouter([
        {
         path: "/userprofile",
         element:<UserProfile></UserProfile>,
+         
+       
+      },
+      {
+        path: "/properties",
+        element:<Properties></Properties>,
          
        
       }

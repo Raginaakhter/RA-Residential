@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Cozy Single-family Home",
-    "description": "Standalone residence offering privacy and space, ideal for families or professionals seeking comfort.",
+    "description": "Standalone residence offering privacy and space, ideal for families or professi.",
     "location": "123 Maple Street, Springfield",
     "price": "$1,800/month",
     "bedrooms": 3,
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "title": "Classic Suburban Home",
-    "description": "Comfortable home with updated kitchen and patio, perfect for small families.",
+    "description": "Comfortable home with updated kitchen and patio, perfect for small families. neighbarhood.",
     "location": "98 Pine Lane, Brookside",
     "price": "$1,950/month",
     "bedrooms": 3,
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "title": "Charming Corner House",
-    "description": "Beautiful corner-lot home with fenced yard and large windows, located near schools and parks.",
+    "description": "Standalone residence offering privacy and space, ideal for families or professi.",
     "location": "812 Elm Drive, Greenfield",
     "price": "$2,000/month",
     "bedrooms": 3,
@@ -41,8 +41,8 @@
   },
   {
     "id": 5,
-    "title": "Luxury Single-family Residence",
-    "description": "Elegant house with modern appliances, double garage, and large garden in a premium location.",
+    "title": "Luxury Single-family",
+    "description": "Standalone residence offering privacy and space, ideal for families or professi.",
     "location": "200 Sunset Blvd, Lakeview",
     "price": "$2,800/month",
     "bedrooms": 5,
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "title": "Affordable Family Living",
-    "description": "Great value home with ample space and amenities, ideal for growing families.",
+    "description": "Standalone residence offering privacy and space, ideal for families or  professi. hi professi br bt bd.",
     "location": "310 Birch Road, Meadowville",
     "price": "$1,600/month",
     "bedrooms": 3,
