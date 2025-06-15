@@ -7,7 +7,7 @@
     "price": "$1,800/month",
     "bedrooms": 3,
     "bathrooms": 2,
-    "image": "https://example.com/images/home1.jpg"
+    "image": "https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?ga=GA1.1.840742692.1748253951&semt=ais_items_boosted&w=740"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "price": "$2,200/month",
     "bedrooms": 4,
     "bathrooms": 3,
-    "image": "https://example.com/images/home2.jpg"
+    "image": "https://img.freepik.com/premium-photo/luxury-residential-house-with-concrete-pathway-green-lawn-front_769578-2405.jpg?ga=GA1.1.840742692.1748253951&semt=ais_items_boosted&w=740"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "price": "$1,950/month",
     "bedrooms": 3,
     "bathrooms": 2,
-    "image": "https://example.com/images/home3.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZHYCt1mzf08jPbo-PCcft9X5lIPmLa7c79A&s"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "price": "$2,000/month",
     "bedrooms": 3,
     "bathrooms": 2,
-    "image": "https://example.com/images/home4.jpg"
+    "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "price": "$2,800/month",
     "bedrooms": 5,
     "bathrooms": 4,
-    "image": "https://example.com/images/home5.jpg"
+    "image": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "id": 6,
@@ -57,6 +57,6 @@
     "price": "$1,600/month",
     "bedrooms": 3,
     "bathrooms": 2,
-    "image": "https://example.com/images/home6.jpg"
+    "image": "https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ]
