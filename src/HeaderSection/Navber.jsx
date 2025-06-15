@@ -1,11 +1,16 @@
 import { Link, NavLink } from 'react-router-dom';
-import { FaUserCircle } from "react-icons/fa";
 import { useContext, useState } from 'react';
 import { AuthContext } from '../provider/Authprovider';
 
 const Navber = () => {
   const { user, logOut } = useContext(AuthContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to apply active styles
+  const activeClass = ({ isActive }) =>
+    isActive
+      ? "bg-fuchsia-600 px-2 py-1 rounded font-semibold"
+      : "hover:bg-fuchsia-600 px-2 py-1 rounded";
 
   return (
     <nav className="bg-gray-900 text-white shadow-md">
@@ -14,9 +19,9 @@ const Navber = () => {
 
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/"className="text-2xl font-bold bg-emerald-600 px-4 py-2 rounded-2xl hover:bg-fuchsia-600 transition duration-300">
+            <Link to="/" className="text-2xl font-bold bg-emerald-600 px-4 py-2 rounded-2xl hover:bg-fuchsia-600 transition duration-300">
               RA Residential
-            </Link> 
+            </Link>
           </div>
 
           {/* Hamburger Menu - Mobile */}
@@ -37,23 +42,20 @@ const Navber = () => {
 
           {/* Menu items */}
           <div className="hidden md:flex items-center space-x-6">
-            <NavLink className="hover:bg-fuchsia-600 px-2 py-1 rounded" to="/">Home</NavLink>
-            <NavLink className="hover:bg-fuchsia-600 px-2 py-1 rounded" to="/userprofile">User Profile</NavLink>
-            <NavLink className="hover:bg-fuchsia-600 px-2 py-1 rounded" to="/contact">Contact</NavLink>
-            <NavLink className="hover:bg-fuchsia-600 px-2 py-1 rounded" to="/comments">Comments</NavLink>
-            <NavLink className="hover:bg-fuchsia-600 px-2 py-1 rounded" to="/properties">Properties</NavLink>
+            <NavLink className={activeClass} to="/">Home</NavLink>
+            <NavLink className={activeClass} to="/userprofile">User Profile</NavLink>
+            <NavLink className={activeClass} to="/contact">Contact</NavLink>
+            <NavLink className={activeClass} to="/comments">Comments</NavLink>
+            <NavLink className={activeClass} to="/properties">Properties</NavLink>
 
-            {/* User Profile or Login */}
-            {
-              user && user.email ? (
-                <>
-                  <img className="w-10 h-10 rounded-full" src={user.photoURL} alt="User" />
-                  <button onClick={logOut} className="btn bg-emerald-600 hover:bg-red-500 text-white">Log Out</button>
-                </>
-              ) : (
-                <Link to="/login" className="btn bg-emerald-600 hover:bg-emerald-700 text-white">Login</Link>
-              )
-            }
+            {user && user.email ? (
+              <>
+                <img className="w-10 h-10 rounded-full" src={user.photoURL} alt="User" />
+                <button onClick={logOut} className="btn bg-emerald-600 hover:bg-red-500 text-white">Log Out</button>
+              </>
+            ) : (
+              <Link to="/login" className="btn bg-emerald-600 hover:bg-emerald-700 text-white">Login</Link>
+            )}
           </div>
         </div>
       </div>
@@ -61,11 +63,11 @@ const Navber = () => {
       {/* Mobile Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 bg-gray-800">
-          <NavLink className="block hover:bg-fuchsia-600 px-2 py-1 rounded" to="/">Home</NavLink>
-          <NavLink className="block hover:bg-fuchsia-600 px-2 py-1 rounded" to="/userprofile">User Profile</NavLink>
-          <NavLink className="block hover:bg-fuchsia-600 px-2 py-1 rounded" to="/contact">Contact</NavLink>
-          <NavLink className="block hover:bg-fuchsia-600 px-2 py-1 rounded" to="/comments">Comments</NavLink>
-          <NavLink className="block hover:bg-fuchsia-600 px-2 py-1 rounded" to="/properties">Properties</NavLink>
+          <NavLink className={activeClass} to="/">Home</NavLink>
+          <NavLink className={activeClass} to="/userprofile">User Profile</NavLink>
+          <NavLink className={activeClass} to="/contact">Contact</NavLink>
+          <NavLink className={activeClass} to="/comments">Comments</NavLink>
+          <NavLink className={activeClass} to="/properties">Properties</NavLink>
 
           {user && user.email ? (
             <>

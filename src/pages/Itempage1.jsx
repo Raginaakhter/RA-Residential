@@ -10,7 +10,7 @@ const Itempage1 = () => {
         <div className="p-6">
             <h2 className="text-xl font-bold mb-4">Total Items: {data.length}</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
                 {
                     data.map((item, index) => (
                         <div key={index} className="card bg-base-100 w-96 shadow-sm">
