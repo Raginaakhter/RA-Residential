@@ -21,33 +21,33 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="px-4 py-8">
+    <div className="px-4 py-8 bg-white text-black">
       {/* Header Section */}
-      <div className="text-center mb-8">
-        <h1 className="text-green-600 text-3xl sm:text-4xl font-bold mb-2">
+      <div className="text-center mb-10">
+        <h1 className="text-green-600 text-3xl sm:text-4xl font-bold mb-3">
           Meet Our Team
         </h1>
-        <h3 className="text-green-600 text-base sm:text-lg">
+        <h3 className="text-green-600 text-base sm:text-lg leading-relaxed">
           Our expert team is made up of creatives with <br className="hidden sm:block" />
           technical know-how, strategists who think outside the box, and developers who push innovation.
         </h3>
       </div>
 
-      {/* Main Content */}
-      <div className="flex flex-col lg:flex-row gap-6 items-start justify-center">
+      {/* Main Content Section */}
+      <div className="flex flex-col lg:flex-row gap-8 items-start justify-center max-w-6xl mx-auto">
         {/* Accordion Section */}
-        <div className="join join-vertical bg-base-100 w-full lg:w-1/2 p-4 rounded-xl shadow-md">
-          <h2 className="text-2xl mb-4 font-semibold text-amber-50">
+        <div className="w-full lg:w-1/2 bg-gray-100 p-6 rounded-xl shadow-md">
+          <h2 className="text-2xl font-semibold mb-4">
             Ragina Akter is the main founder of this RA Residential company
           </h2>
-          <p className="mb-6 text-sm text-amber-50">
+          <p className="mb-6 text-sm">
             Our expert team is made up of creatives with technical know-how, strategists who think outside the box, and developers who push innovation.
           </p>
 
           {/* FAQ Accordions */}
           {faqData.map((item, index) => (
-            <div key={index} className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked={index === 0} />
+            <div key={index} className="collapse collapse-arrow border border-gray-300 bg-white rounded-md mb-2">
+              <input type="radio" name="faq" defaultChecked={index === 0} />
               <div className="collapse-title font-medium">{item.question}</div>
               <div className="collapse-content text-sm">{item.answer}</div>
             </div>

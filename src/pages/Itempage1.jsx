@@ -4,29 +4,33 @@ import { Link, useLoaderData } from 'react-router-dom';
 const Itempage1 = () => {
     const data = useLoaderData();
 
-    console.log(data);
-
     return (
-        <div className="p-6">
-            <h2 className="text-xl font-bold mb-4">Total Items: {data.length}</h2>
+        <div className="px-4 py-6 max-w-7xl mx-auto bg-white text-black">
+            <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
+                Total Items: {data.length}
+            </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     data.map((item, index) => (
-                        <div key={index} className="card bg-base-100 w-96 shadow-sm">
-                            <figure className="px-10 pt-10">
+                        <div
+                            key={index}
+                            className="bg-gray-200 text-black border rounded-lg shadow-md overflow-hidden w-full max-w-sm mx-auto"
+                        >
+                            <figure>
                                 <img
                                     src={item.img_url || "https://source.unsplash.com/400x300/?luxury-house,waterfront"}
                                     alt={item.title}
-                                    className="rounded-xl h-52 object-cover"
+                                    className="w-full h-52 object-cover"
                                 />
                             </figure>
-                            <div className="card-body items-center text-center">
-                                <h2 className="card-title">{item.title}</h2>
-                                <p>{item.description}</p>
-
-                                <div className="card-actions mt-4">
-                                    <Link to={`/details/${item.id}`} className="btn btn-primary">View Property</Link>
+                            <div className="p-4 text-center">
+                                <h2 className="text-lg font-semibold mb-2">{item.title}</h2>
+                                <p className="text-sm">{item.description}</p>
+                                <div className="mt-4">
+                                    <Link to={`/details/${item.id}`} className="btn btn-primary w-full">
+                                        View Property
+                                    </Link>
                                 </div>
                             </div>
                         </div>
