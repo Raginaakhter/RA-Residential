@@ -83,19 +83,19 @@ const Login = () => {
                     <button
                       type="button"
                       onClick={handleResetPassword}
-                      className="link link-hover text-sm text-blue-600"
+                      className="link link-hover text-sm text-green-500"
                     >
                       Forgot password?
                     </button>
                   </div>
 
-                  <button type="submit" className="btn btn-neutral w-full mt-4">Login</button>
+                  <button type="submit" className="btn bg-green-500 hover:bg-gray-300 w-full mt-4 text-amber-50">Login</button>
                 </fieldset>
               </form>
 
               <p className="mt-4 text-center">
                 Don't have an account?{" "}
-                <Link to="/register" className='text-red-500 font-semibold'>Register</Link>
+                <Link to="/register" className='text-green-500 font-semibold hover:underline'>Register</Link>
               </p>
             </div>
           </div>

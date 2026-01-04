@@ -23,7 +23,7 @@ const Banner = () => {
               src="https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Slide 1"
             />
-            <div className="hero-content text-center absolute text-white bg-black bg-opacity-40 p-4 rounded-xl">
+            <div className="hero-content text-center absolute text-white bg-black opacity-70 p-4 rounded-xl">
               <div className="max-w-md">
                 <h1 className="text-3xl sm:text-4xl font-bold">Welcome to RA Residential</h1>
                 <p className="py-4 text-lg sm:text-xl font-medium">

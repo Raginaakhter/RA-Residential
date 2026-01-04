@@ -25,9 +25,9 @@ const ProductsItem = ({ card }) => {
 
     <div className=' hover:text-white focus:outline-none'>
         <Link to="/itempage1">
-      <div className="card bg-base-100 image-full w-96 shadow-sm h-[180px]">
+      <div className="card bg-base-100 image-full w-full shadow-sm h-[180px]">
   <figure>
-    <img className='w-96 ]'
+    <img className='w-full ]'
       src={image}
       alt="Shoes" />
   </figure>

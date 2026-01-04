@@ -34,7 +34,7 @@ const ContactUs = () => {
             </div>
 {/* form section */}
 <div className=' '>
-    <div className="bg-blue-950 min-h-screen">
+    <div className="bg-white-950 min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold"></h1>
@@ -45,15 +45,17 @@ const ContactUs = () => {
       </p>
     </div>
    <div className='pb--5'>
-     <div className=" max-w-sm shrink-0 shadow-2xl ">
-      <div className="card-body h-100 w-100 justify-center bg-cyan-800 rounded-2xl">
+     <div className="   shrink-0 shadow-2xl ">
+      <div className="card-body h-100  justify-center bg-gray-300 rounded-2xl">
         <fieldset className="fieldset">
           <label className="label">Email</label>
-          <input type="email" className="input" placeholder="Email" />
+          <input type="email" className="input lg:w-100 w-full" placeholder="Email" />
           <label className="label">Password</label>
-          <input type="password" className="input" placeholder="Password" />
+          <input type="password" className="input lg:w-100 w-full" placeholder="Password" />
          
-          <button className="btn btn-neutral mt-4">send your messaage</button>
+      <div className='flex justify-center mt-4'>
+         <p className='btn bg-green-500 text-white'>Send your message</p>
+      </div>
         </fieldset>
       </div>
     </div>
@@ -62,9 +64,9 @@ const ContactUs = () => {
 </div>
 </div>
 {/* card section */}
-<div>
+<div className='mb-10'>
     <section>
-    <div className="py-10 bg-gradient-to-r from-fuchsia-600 to-blue-600">
+    <div className="py-1 bg-gradient-to-r from-fuchsia-600 to-blue-600">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold leading-tight text-center text-white sm:text-4xl lg:text-5xl">we ,ll be in great company</h2>
         </div>
