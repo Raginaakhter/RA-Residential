@@ -4,7 +4,7 @@ const Demo = () => {
     return (
         <div>
             
-          Lorem ipsum  Excepturi non sint architecto, cumque impedit magnam nostrum officia quidem
+          Lorem ipsum  Excepturi non sint architecto, 
         
         </div>
     );
