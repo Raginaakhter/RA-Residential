@@ -3,7 +3,7 @@ import React from 'react';
 const Demo = () => {
     return (
         <div>
-            Lorem ipsum dolor, ghghgjk adipisicing elit. Consequatur repudiandae repellat doloribus assumenda ducimus unde enim, hic ipsa est culpa soluta 
+            Lorem ipsum dolor, Rajina adipisicing elit. Consequatur repudiandae repellat doloribus assumenda ducimus unde enim, hic ipsa est culpa soluta 
             
             fuga, ipsam provident. Cupiditate ipsam repellat nesciunt earum voluptatum.
         </div>
